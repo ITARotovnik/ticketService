@@ -34,7 +34,7 @@ public class TicketServiceTest {
         ObjectId objectId = new ObjectId("65f6c02d4ce6fc6f44eabdef");
         Ticket ticket = new Ticket();
         ticket.setId(objectId);
-        ticket.setEventName("Koncert Siddharta");
+        ticket.setEventName("Koncert Sidharta");
         ticket.setEventDate("2024-10-10");
         ticket.setEventPrice(30.5);
         ticket.setQuantity(2);
