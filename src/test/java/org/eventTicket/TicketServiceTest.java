@@ -30,7 +30,6 @@ public class TicketServiceTest {
 
     @Test
     public void testGetTicketById_Success() {
-        // Mocking input and output
         ObjectId objectId = new ObjectId("65f6c02d4ce6fc6f44eabdef");
         Ticket ticket = new Ticket();
         ticket.setId(objectId);

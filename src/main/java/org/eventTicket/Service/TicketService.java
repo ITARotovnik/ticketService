@@ -38,7 +38,6 @@ public class TicketService extends TicketServiceGrpc.TicketServiceImplBase {
                     .setEventprice(ticket.getEventPrice())
                     .setQuanitity(ticket.getQuantity());
 
-            // Check if the ID is not null before setting it
             if (ticket.getId() != null) {
                 grpcTicketBuilder.setId(ticket.getId().toString());
             }
