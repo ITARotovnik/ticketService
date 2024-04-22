@@ -11,7 +11,7 @@ import java.util.Date;
 public class Ticket extends PanacheMongoEntity {
 
     @BsonProperty("_id")
-    private ObjectId id;
+    private ObjectId id = new ObjectId();
     private String eventName;
     private String eventDate;
     private Double eventPrice;
